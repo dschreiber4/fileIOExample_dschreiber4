@@ -1,0 +1,22 @@
+		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
+
+           <label for="stateName">State Name:</label>
+           <input type="text" name="stateName" id="stateName" value="">
+           <br><br>
+
+           <label for="stateBird">State Bird:</label>
+           <input type="text" name="stateBird" id="stateBird">
+           <br><br>
+            
+           <label for="stateAnimal">State Animal:</label>
+           <input type="text" name="stateAnimal" id="stateAnimal">
+           <br><br>
+           
+           <label for="stateMotto">State Motto:</label>
+           <textarea name="stateMotto" id="stateMotto"></textarea>
+            
+           <br><br>
+
+           <input type="submit" name="submit" value="Go">
+          
+        </form>
